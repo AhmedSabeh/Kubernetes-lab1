@@ -1,4 +1,4 @@
-# Lab 27: Updating Applications and Rolling Back Changes (Declarative)
+# Lab 1: Updating Applications and Rolling Back Changes (Declarative)
 
 ## Objective
 This lab demonstrates how to deploy an NGINX application with three replicas, expose it, update the image to Apache, and roll back changes—all using declarative YAML manifests.
