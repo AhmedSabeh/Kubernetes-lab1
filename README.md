@@ -159,24 +159,6 @@ kubectl delete -f nginx-service.yaml
 
 ---
 
-## Final Notes
-- By using declarative manifests, you can keep your Kubernetes configuration in version control (e.g., GitHub).  
-- Any changes you make to the YAML files can be applied with `kubectl apply -f`, and Kubernetes will handle the rolling updates.  
-- The `rollout undo` command relies on the stored revisions, which are automatically created when the **Deployment** resource changes.
-
----
-
-### Commit Your Changes to GitHub
-Once you’ve tested and verified your lab, commit your YAML files and README to your GitHub repository:
-
-```bash
-git add README.md nginx-deployment.yaml nginx-service.yaml
-git commit -m "Add declarative YAML for Lab 27 (NGINX to Apache, rollback)"
-git push origin main
-```
-
----
-
 **Congratulations!** You have successfully demonstrated how to **deploy**, **update**, and **roll back** an application using declarative Kubernetes YAML manifests.
 
 
