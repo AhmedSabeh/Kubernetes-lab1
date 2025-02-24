@@ -150,15 +150,6 @@ You will see the old pods (Apache) terminating and the new pods (NGINX) spinning
 
 ---
 
-## 7. Cleanup (Optional)
-If you want to remove the resources after testing:
-```bash
-kubectl delete -f nginx-deployment.yaml
-kubectl delete -f nginx-service.yaml
-```
-
----
-
 **Congratulations!** You have successfully demonstrated how to **deploy**, **update**, and **roll back** an application using declarative Kubernetes YAML manifests.
 
 
